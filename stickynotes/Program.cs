@@ -33,7 +33,7 @@ public class Program
 
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Main}/{id?}");
+            pattern: "{controller=Notes}/{action=Main}/{id?}");
 
         app.Run();
     }
