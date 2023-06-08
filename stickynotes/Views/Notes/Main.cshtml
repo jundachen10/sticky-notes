@@ -3,10 +3,12 @@
 }
 
 <h1>Welcome to Sticky Notes!</h1>
+<div class="box">
 
-@foreach (var note in Model)
-{
-    <div>
-        @note.Text
-    </div>
-}
+    @foreach (var note in Model)
+    {
+        <p class="stickynote">
+            @note.Text
+        </p>
+    }
+</div>

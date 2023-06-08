@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9jwGpKWJAono5MRx+SWz1Spgbtm4JXkD24tqMLzdfbM=",
+  "Hash": "jk7+1ZqOY9tRvm2xALU66+wPLsJxxF41H9LfBTrwbx4=",
   "Source": "stickynotes",
   "BasePath": "_content/stickynotes",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/jundachen/Projects/stickynotes/stickynotes/obj/Debug/net7.0/scopedcss/projectbundle/stickynotes.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/jundachen/Projects/stickynotes/stickynotes/wwwroot/.DS_Store",
+      "SourceId": "stickynotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jundachen/Projects/stickynotes/stickynotes/wwwroot/",
+      "BasePath": "_content/stickynotes",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
       "Identity": "/Users/jundachen/Projects/stickynotes/stickynotes/wwwroot/css/site.css",
