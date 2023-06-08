@@ -22,9 +22,9 @@ body {
 }
 
 .stickynote {
-    height: 100px;
-    width: 100px;
-    background-color: #feff9c;
+    height: 125px;
+    width: 125px;
+    background-color: #7AFCFF;
     box-shadow: 7px 3px 15px;
     border-radius: 3px;
     text-align: center;
@@ -42,4 +42,10 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.edit {
+    position: relative;
+    align-self: end;
+
 }

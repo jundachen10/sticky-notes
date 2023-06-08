@@ -2,13 +2,16 @@
     ViewData["Title"] = "Welcome!";
 }
 
-<h1>Welcome to Sticky Notes!</h1>
+<h1>Sticky!</h1>
 <div class="box">
 
     @foreach (var note in Model)
     {
         <p class="stickynote">
             @note.Text
+
+            <a asp-action="Edit" asp-route-id="@note.Id">Edit</a>
         </p>
-    }
+        }
 </div>
+
