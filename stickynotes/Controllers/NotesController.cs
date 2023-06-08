@@ -17,6 +17,14 @@ namespace stickynotes.Controllers
         public NotesController(stickynotesContext context)
         {
             _context = context;
+
+        }
+
+        public async Task<IActionResult> Main()
+        {
+            return _context.Note != null ?
+                        View(await _context.Note.ToListAsync()) :
+                        Problem("Entity set 'stickynotesContext.Note'  is null.");
         }
 
         // GET: Notes
